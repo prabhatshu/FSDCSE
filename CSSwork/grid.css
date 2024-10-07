@@ -1,0 +1,97 @@
+body{
+    background-color: rgb(74, 198, 192);
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: white;
+}
+.container{
+    display: grid;
+   
+   grid-template-columns: repeat(12, 1fr);
+   
+
+    background-color: rgb(214, 201, 191);
+    height: 800px;
+   
+    box-shadow: 2px 3px 2px 1px rgba(0, 0, 0, 0.265);
+    
+}
+.row1,.row2,.row3{
+      box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.222);
+ 
+}
+.row1{
+    display: grid;
+    grid-column:1/13;
+    grid-row: 1/2;
+   /* grid-column-start: 3;
+    grid-column-end: 8;
+    grid-row-start: 1;
+    grid-row-end:2;*/
+grid-template-columns: repeat(2,1fr);
+    background-color: rgb(19,25,33);
+    height: 70px;
+    display: flex;
+    color: white;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.row2{
+    grid-column:1/13;
+    grid-row: 2/3;
+    height: 40px;
+    background-color: rgb(35,47,62);
+    display: flex;
+    flex-direction: row;
+}
+.row2 ul{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.row3{
+    grid-column:1/13;
+    grid-row: 3/4;
+    height: 300px;
+    background-color: bisque;
+    background-image: url('https://images-eu.ssl-images-amazon.com/images/G/31/Events/img24/Jupiter24/HERO1/J24_GW_PC_EventHero_Shop-Now_Static_2X._CB562511593_.jpg');
+}
+.row4{
+    grid-column:1/13;
+    grid-row: 4/5;
+    height: 450px;
+    background-color: beige;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.row41,.row42,.row43, .row44{
+  height: 350px;
+  width: 250px;
+  box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.222);
+  
+ background-color: white;
+  
+}
+.row41, .row42,.row43, .row44{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-template-rows: repeat(2,1fr);
+    
+}
+.row412,.row411,.row413,.row414{
+    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.222);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row133{
+    width: 500px;
+    height: 40px;
+    padding-left: 40px;
+}
