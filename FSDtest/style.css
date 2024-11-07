@@ -118,3 +118,10 @@ body{
   .next{
       background-color: rgb(81, 21, 21);
   }
+  #result{
+    color: red;
+    position: relative;
+    top: 100px;
+    display: flex;
+    left: 44%;
+  }
