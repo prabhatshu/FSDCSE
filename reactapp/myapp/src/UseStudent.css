@@ -1,0 +1,20 @@
+.main{
+    background-color:black;
+    width: 450px;
+    height: 350px;
+    color: red;
+    box-shadow: 2px 1px 2px 1px rgba(140, 97, 97, 0.335);
+display: flex;
+justify-content: center;
+align-items: center;
+  font-size: 50px;
+  flex-direction: column;
+    
+
+}
+.btn{
+    font-size: 20px;
+    margin-right: 10px;
+    width: 100px;
+    
+}
