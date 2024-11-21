@@ -1,11 +1,11 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import './ImageManipu.css';
 
 export default function ImageManipu() {
   const [height, setHeight] = useState(100);
   const [width, setWidth] = useState(100);
   const [rotate, setRotate] = useState(0);
-  const [color, setColor] = useState('#fff'); 
+  const [color, setColor] = useState('#000'); 
 
   function enhance() {
     setHeight(height + 50);
@@ -20,7 +20,7 @@ export default function ImageManipu() {
   }
 
   function colorch() {
-    const randomColor = `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+    const randomColor = `#${Math.floor(Math.random() * 255)}`;
     setColor(randomColor);
   }
 

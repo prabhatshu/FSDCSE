@@ -3,6 +3,8 @@ import Student from './Student';
 import './student.css';
 import UseStudentstate from './useStudentstate';
 import ImageManipu from './ImageManipu';
+import MyUseEffect from '../MyUseEffect';
+import UseFetch from './UseFetch';
 function HelloWorld() {
   const h1 = <h1>Hello World!</h1>;
   
@@ -51,7 +53,9 @@ function HelloWorld() {
     <h2 style={{color:'red'}}>Hello using useState hook</h2>
     <div>
       {/* <UseStudentstate/> */}
-      <ImageManipu/>
+      {/* <ImageManipu/> */}
+      {/* <MyUseEffect/> */}
+     < UseFetch/>
     </div>
     </div>
     
